@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css2?family=Abel&display=swap);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    height: 4rem;
+    font-family: 'Abel';
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 292px;
+}
+
+nav img{
+    margin-left: 8px;
+    width: 10px;
+}
+
+#img-logo{
+    margin-left: 12rem;
+}
+
+
+.section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    background-color: #CAFAD9;
+    font-family: "Abel", sans-serif;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding-left: 10rem;
+    row-gap: 30px;
+}
+
+
+.home h1 {
+    font-size: 40px;
+}
+
+.home p {
+    font-size: 20px;
+    width: 380px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.btn-fale{
+    padding: 8px;
+    width: 200px;
+    height: 3rem;
+    background-color: #7622D7;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.btn-fale span{
+    font-family: "Abel", sans-serif;
+    color: #F7F8F7;
+}
+
+
+.btn-curriculo{
+    padding: 8px;
+    width: 200px;
+    background: transparent;
+    border-radius: 25px;
+    border-style: solid;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    font-family: "Abel", sans-serif;
+}
+
+
+.contatos{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contatos span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.redes-sociais{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.redes-sociais span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icones img{
+    width: 18px;
+}
+
+.icones p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+    background-color: #CAFAD9;
+    font-family: "Abel", sans-serif;
+}
+
+
+.home-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    row-gap: 30px;
+}
+
+
+.home-2 h2 {
+    font-size: 40px;
+}
+
+.home-2 p {
+    font-size: 20px;
+    width: 31rem;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section-1 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home {
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .home h1 {
+        font-size: 32px;
+    }
+
+    .home p {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .btns {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-fale,
+    .btn-curriculo {
+        width: 100%;
+    }
+}
